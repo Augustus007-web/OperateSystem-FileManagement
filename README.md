@@ -4,11 +4,13 @@
 
 #运行程序
 
-pip install PyQt5
-python main.py
+- pip install PyQt5
+- python main.py
 
 ## 项目截图
 
+![视图](imgs/(1).png)
+![视图](imgs/(2).png)
 
 
 ## 功能概览
@@ -43,13 +45,17 @@ python main.py
 - **持久化**：pickle（简单对象序列化）
 - **开发环境**：Windows / PyCharm（推荐）
 
-## 快速开始
+## 项目演示
+![视图](imgs/(3).png)
+![视图](imgs/(4).png)
+![视图](imgs/(5).png)
+![视图](imgs/(6).png)
+![视图](imgs/(7).png)
+![视图](imgs/(25).png)
 
-### 1. 环境准备
+## 后续改进方向
 
-```bash
-# 推荐使用虚拟环境
-python -m venv venv
-venv\Scripts\activate          # Windows
-# source venv/bin/activate     # macOS/Linux
+将UI界面优化，增强其可交互性。补充功能，包括剪切、查看方式、撤销等等，尽可能与实际操作系统的文件系统靠拢。
+
+
 
